@@ -21,7 +21,6 @@ I tried two different vectorizers on the training and test sets across three dif
  
 ![download](https://user-images.githubusercontent.com/109488204/223743810-bc40aacf-2c8b-45db-b6e3-17bd37d74e10.png)
 
-
  <br>
 I found that the tf-idf improved the metrics of the logistic regression model while all other models performed better using Count vectors.  The logistic regression model using tf-idf vectors outperformed all of the other models so I proceeded with that one, creating a function where the user can input a sentence and the model will score it for stress.  The model performed best when similar keywords were used in inputs to the common bigrams and trigrams found in each category.
  <br>
