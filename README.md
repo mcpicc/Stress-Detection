@@ -19,7 +19,11 @@ I created two train/test sets using two different vectorizers. The first vectori
  <br>
  
  ## Modeling
-Overall several of the models had good performance.  The logistic regression and naive bayes models both performed well using count vectors and tf-idf, while the decision trees comparitively underperformed in both cases.  The logistic regression model using tf-idf vectors outperformed all of the other models slightly, so I proceeded with that one, creating a function where the user can input a sentence and the model will score it for stress.  The model performed best when similar keywords were used in inputs to the common bigrams and trigrams found in each category.  In order to improve the model in the future, I would look to improve the dataset.  This would mean using a larger dataset, possibly trying out using more or less subreddit sources.  I also would like to see the dataset be more balanced between categories of stress and no stress, as well as being able to include confidence values and only using data where the confidence of stress or no stress is high.
+Overall several of the models had good performance.  The logistic regression and naive bayes models both performed well using count vectors and tf-idf, while the decision trees comparitively underperformed in both cases.  The logistic regression model using tf-idf vectors outperformed all of the other models slightly, so I proceeded with that one, creating a function where the user can input a sentence and the model will score it for stress.  The model performed best when similar keywords were used in inputs to the common bigrams and trigrams found in each category.  
+
+<br>
+
+In order to improve the model in the future, I would look to improve the dataset.  This would mean using a larger dataset, possibly trying out using more or less subreddit sources.  I also would like to see the dataset be more balanced between categories of stress and no stress, as well as being able to include confidence values and only using data where the confidence of stress or no stress is high.
 
 
  <br>
