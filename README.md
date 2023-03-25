@@ -2,6 +2,9 @@
 
 Creating a Stress Detection Tool using Data From Mental Health Subreddits
 
+## Background
+Many people under stress turn to the internet to vent, get feedback, and seek support.  One of the places on the internet that people turn to is Reddit due to the subreddits where users can write to each other on seemingly endless topics.  While some of these subreddits might have to do with cars or home organization, there are many subreddits dedicated to different aspects of mental health as well.  Some users want a place to get things off their chest without judgment, some want to ask for advice, while others use their time to post encouraging words or provide support.  What if comments could be flagged if they show signs that the author might be under emotional stress?  Through natural language processing, there is a way.
+
 ## Data
 The data I collected came from two sources.  The dreaddit dataset contains comments from Reddit posts across a variety subreddits that have been scored for sentiment analysis.  I added comments from additional subreddits using the Reddit API that all scored positively.
 
